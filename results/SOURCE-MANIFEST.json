@@ -1,0 +1,312 @@
+{
+  "source_revision": "6f697ddebebf27576f7fe1f81647e7d05b3b497c",
+  "files": [
+    {
+      "public_path": ".gitignore",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:.gitignore",
+      "original_sha256": "fefea780092de39ed9500772832c05e4c1cce8886180b209a5f476afa0b0ca20",
+      "public_sha256": "783deff8ef4e8752648ecd1b6dae6c4088c358cc081b701bfac81e0d154ed8e0",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/genfile/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/genfile/main.go",
+      "original_sha256": "ceec7add49b0f074eb726c48d24b777172b5f9bd1a67ef128e7b88495a189def",
+      "public_sha256": "ceec7add49b0f074eb726c48d24b777172b5f9bd1a67ef128e7b88495a189def",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/iobaseline/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/iobaseline/main.go",
+      "original_sha256": "5f74b331c325bbae56217c30186e5b09fd76bb83ac86cbd4de27f31614cb55e7",
+      "public_sha256": "5f74b331c325bbae56217c30186e5b09fd76bb83ac86cbd4de27f31614cb55e7",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/iobaseline/main_test.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/iobaseline/main_test.go",
+      "original_sha256": "462b2fdf5603f122a9be09e640bf6ad62da5d80eb8960a35f0f568e62b659b50",
+      "public_sha256": "462b2fdf5603f122a9be09e640bf6ad62da5d80eb8960a35f0f568e62b659b50",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/iobaseline/residency_linux_amd64.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/iobaseline/residency_linux_amd64.go",
+      "original_sha256": "fb01d94ff541d6f19338fa5648a8e49ae4bb068a3405d042b25fe47cfff1c5a1",
+      "public_sha256": "fb01d94ff541d6f19338fa5648a8e49ae4bb068a3405d042b25fe47cfff1c5a1",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/iouringprobe/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/iouringprobe/main.go",
+      "original_sha256": "9e8dd8f9691a7d56b50156cc622aa2193315f6af442bfd032ed4828c64cb0f4b",
+      "public_sha256": "9e8dd8f9691a7d56b50156cc622aa2193315f6af442bfd032ed4828c64cb0f4b",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase6check/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase6check/main.go",
+      "original_sha256": "206dff9753ec5240f0dbc96636645c491e8c090819031909280a60e5e752995b",
+      "public_sha256": "206dff9753ec5240f0dbc96636645c491e8c090819031909280a60e5e752995b",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase6check/phase7.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase6check/phase7.go",
+      "original_sha256": "8b5d810ce6428211c5e5e0407f64d27e88e3fef931fab969d53ed21cf5ea7d08",
+      "public_sha256": "8b5d810ce6428211c5e5e0407f64d27e88e3fef931fab969d53ed21cf5ea7d08",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase6check/phase7_test.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase6check/phase7_test.go",
+      "original_sha256": "09885f011d6040c71042d251271cabd5d0f17583dafcec8ef70aed1f8e1faeee",
+      "public_sha256": "09885f011d6040c71042d251271cabd5d0f17583dafcec8ef70aed1f8e1faeee",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase6check/phase8.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase6check/phase8.go",
+      "original_sha256": "1fe7309ecb00244755476cbc6fb2608a80fa966c03f54c5347e5ccf1f9762a43",
+      "public_sha256": "1fe7309ecb00244755476cbc6fb2608a80fa966c03f54c5347e5ccf1f9762a43",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase6check/phase8_test.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase6check/phase8_test.go",
+      "original_sha256": "73d6d85553eb4275bcc202086c821e8df67e12ee3ff4730d303213ccc7a504a0",
+      "public_sha256": "73d6d85553eb4275bcc202086c821e8df67e12ee3ff4730d303213ccc7a504a0",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase8compare/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase8compare/main.go",
+      "original_sha256": "31188558a7599d092935380864a66cde99783b6cd13e739b56c5a7a1a071970c",
+      "public_sha256": "31188558a7599d092935380864a66cde99783b6cd13e739b56c5a7a1a071970c",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/phase8compare/main_test.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/phase8compare/main_test.go",
+      "original_sha256": "5c6b699ae3a1aa557f32fb1f4cf566ca85136b734046f224fe8041eee6c15dbe",
+      "public_sha256": "5c6b699ae3a1aa557f32fb1f4cf566ca85136b734046f224fe8041eee6c15dbe",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "cmd/summarize/main.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:cmd/summarize/main.go",
+      "original_sha256": "e41313f496413f97551fe785f52cd64d1306a725ff67168954fbc1c7ff905e1f",
+      "public_sha256": "e41313f496413f97551fe785f52cd64d1306a725ff67168954fbc1c7ff905e1f",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/environment/aws-environment-c.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-environment-c-aws.md",
+      "original_sha256": "1de825469d3f8c8ca0b521ce80bc338ada1d3fcf7e204e76e71cb2540139da2e",
+      "public_sha256": "1de825469d3f8c8ca0b521ce80bc338ada1d3fcf7e204e76e71cb2540139da2e",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-4-attribution.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-4-attribution.md",
+      "original_sha256": "04aa2826798976730534ea10a2381c9c749a61b1b6ed4bf8233ef953c109f5ce",
+      "public_sha256": "14de6c11b9c240ccd84909adb43407085e70e870136d1c2bd1d2a962e1e30b37",
+      "redactions": {
+        "operator name": 1
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-5-force-async.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-5-force-async.md",
+      "original_sha256": "863646e970a6266c0fce7daec2424d3648c58a371195343f6f7eb0d8474fd7b2",
+      "public_sha256": "a3ab13a136bccd2f87348db020d486ff48e702ac3b730973cb9da93d58cf1098",
+      "redactions": {
+        "operator home path": 4
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-6-iowq-scaling.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-6-iowq-scaling.md",
+      "original_sha256": "4f2a6da388f25af1bc8b35aa56bf21d934ad4867a5a333301d6d66e31e3d90bc",
+      "public_sha256": "be365a9c8162f6d0fdd9fdc14f8c6b3b86c0e3021d9c5c833136d939c2fa3f86",
+      "redactions": {
+        "operator home path": 2
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-6b-worker-control.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-6b-worker-control.md",
+      "original_sha256": "f48437436589ac3d2f4d13487bb4cb9565600adc5327ca34003feb4340d44015",
+      "public_sha256": "4ebaffa4f018f695c7e0a14d5756d9468eb7bc02a7bb6c5c1765e6e61bd7d927",
+      "redactions": {
+        "operator home path": 2
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-6c-issuer-context.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-6c-issuer-context.md",
+      "original_sha256": "1b192f2f83e4761ed1675fe4abe5145a323934fa61cdbea900421b8a22c7da03",
+      "public_sha256": "d4d782cf49137f37202146d348b7ec067fcc0860fe9a16dcdb03a0b974aa0136",
+      "redactions": {
+        "operator home path": 2
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/history/io-uring-phase-7-single-issuer-scaling.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-7-single-issuer-scaling.md",
+      "original_sha256": "d587361b326f79ec0729627afcf2a8c1c94e47702ba38131b4f199565f63b1b4",
+      "public_sha256": "d2306705cbd16feb1442993707b2fe368bca5a8d044c371c68000669417fbf01",
+      "redactions": {
+        "operator home path": 4
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/reproduction.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-phase-8-cross-host-reproduction.md",
+      "original_sha256": "feee70952dc5563c261f599324640ca05aae7b293638bd3020cf58252d3f0da7",
+      "public_sha256": "0d126d8668f5e01c97832bae566788098b70b76283ac867e8038816479d8408c",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/evidence-review.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-upstream-evidence-review.md",
+      "original_sha256": "e6c00746f37fe196c4d43957ad6c5290bf4aabb14f1371d976ef498faff7e7b6",
+      "public_sha256": "67afc0ede98b9ee4ba9edd02855127df841155957aa04f52dfe945126e35e6cf",
+      "redactions": {
+        "operator home path": 4
+      },
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/summary.md",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:docs/io-uring-upstream-summary.md",
+      "original_sha256": "ab7fe07c6698c5fb6c0f0f05638d5ddb7de0c6b08c97c2e82c2b5a057e819872",
+      "public_sha256": "1d75d6a3c3b35f4f5eaf164adef248d6c50c5303e6dce6b534ca5579cee14587",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "go.mod",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:go.mod",
+      "original_sha256": "db43c5de62d953666c53c2a78221275b2e7f481d7b2320625fb87d1a0ef9ba30",
+      "public_sha256": "db43c5de62d953666c53c2a78221275b2e7f481d7b2320625fb87d1a0ef9ba30",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "internal/uring/uring_linux_amd64.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:internal/uring/uring_linux_amd64.go",
+      "original_sha256": "da22deaa945690aab561969ac8eedbcbab8950c4fbfed50b9aa67750d66e1abe",
+      "public_sha256": "da22deaa945690aab561969ac8eedbcbab8950c4fbfed50b9aa67750d66e1abe",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "internal/uring/uring_linux_amd64_test.go",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:internal/uring/uring_linux_amd64_test.go",
+      "original_sha256": "4551dfc35774ecd436179e3b97a8bc5dc22fc342f97ecc05e80b6346c80150b8",
+      "public_sha256": "4551dfc35774ecd436179e3b97a8bc5dc22fc342f97ecc05e80b6346c80150b8",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/helpers/phase4-diskstats.sh",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/phase4-diskstats.sh",
+      "original_sha256": "d4d7dca2d0a1bbbea81ba039667c3df456247a468cc1964d3a222dbfe00c4aee",
+      "public_sha256": "d4d7dca2d0a1bbbea81ba039667c3df456247a468cc1964d3a222dbfe00c4aee",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/helpers/phase7-summarize.py",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/phase7-summarize.py",
+      "original_sha256": "b9da8f81fd109b12c1a5128f9261e948901f90fd0de0280bf2f25792f4ac3cf4",
+      "public_sha256": "cc783de40941a48353e73405cacc6cec3dddfa27d38a299e60d986f1efaa01c2",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/phase8-cross-host-reproduction.sh",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/phase8-cross-host-reproduction.sh",
+      "original_sha256": "b5ff6f96ab894d8b40e5ccc7dddb581a554ff9efbcf27771a19c2da3fb2e95b3",
+      "public_sha256": "db1a31c43287c3f84ff94e732ce0bf70564b6bb2913d139dfb563340d256b79f",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/helpers/phase8-summarize.py",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/phase8-summarize.py",
+      "original_sha256": "e6623f70d160ce825ce0309b8329ac5ab775ac034e983a31bc1dfbaa853faf1f",
+      "public_sha256": "e6623f70d160ce825ce0309b8329ac5ab775ac034e983a31bc1dfbaa853faf1f",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/helpers/test_phase7_summary.py",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/test_phase7_summary.py",
+      "original_sha256": "63cb96897dad69495601ffd419c1db37af4454548aaad0a5a8e88b940ce25b55",
+      "public_sha256": "63cb96897dad69495601ffd419c1db37af4454548aaad0a5a8e88b940ce25b55",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "scripts/helpers/test_phase8_summary.py",
+      "source": "source@6f697ddebebf27576f7fe1f81647e7d05b3b497c:scripts/test_phase8_summary.py",
+      "original_sha256": "80b2266f31af463f763c444526d12ef497f5b737a812d5d83b1fc076e6765c7f",
+      "public_sha256": "80b2266f31af463f763c444526d12ef497f5b737a812d5d83b1fc076e6765c7f",
+      "redactions": {},
+      "scope": "selected complete file"
+    },
+    {
+      "public_path": "docs/provenance.md",
+      "source": "technical provenance consolidated from earlier source/result records",
+      "original_sha256": "be63853714ae416040e78c6d3d962d31f5ff968342aa5a4bb8f725437bd190b6",
+      "public_sha256": "71e21f5946c7b5c3218a22e934b080edc69b6232160499ee807107b6931a3dce",
+      "scope": "technical revision/coverage note; not an experimental result"
+    }
+  ],
+  "omitted_scripts": [
+    {
+      "path": "scripts/phase4-observe-workers.sh",
+      "sha256": "3dfc1a0758dde5cb45a7ee94f6fc68933f03dd3cb0448be69e04c690930879ac",
+      "reason": "Private home defaults and/or private-history ancestry gates; omitted, not ported."
+    },
+    {
+      "path": "scripts/phase4-profile.sh",
+      "sha256": "863573ff2456f1ddd6c44a81dfd09a179ff90e42e67ca740c21819f8664851d5",
+      "reason": "Private home defaults and/or private-history ancestry gates; omitted, not ported."
+    },
+    {
+      "path": "scripts/phase6-worker-curve.sh",
+      "sha256": "365566a00067675dd1231df2976f4679508e416b472fafc75499728d6fc1fc74",
+      "reason": "Private home defaults and/or private-history ancestry gates; omitted, not ported."
+    },
+    {
+      "path": "scripts/phase7-single-issuer-worker-curve.sh",
+      "sha256": "6ead4c69a0e33051b5f17e6640c19d25a2cabc81a8543117ee5b13f21793c655",
+      "reason": "Private home defaults and/or private-history ancestry gates; omitted, not ported."
+    }
+  ]
+}

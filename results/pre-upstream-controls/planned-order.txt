@@ -1,0 +1,3 @@
+r1 B4 normal B64 U4 B1000 B16 default B256
+r2 B256 default B16 B1000 U4 B64 normal B4
+r3 U4 B16 B256 normal B4 default B64 B1000

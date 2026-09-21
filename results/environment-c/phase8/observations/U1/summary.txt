@@ -1,0 +1,20 @@
+sample_interval_ms=25
+samples=187
+root_pid=13603
+workload_pid=13610
+peak_workload_tasks=10
+vanished_tid_reads=0
+peak_tasks_by_comm:
+comm=iobaseline peak=9
+comm=iou-wrk-13614 peak=1
+distinct_tids_by_comm:
+comm=iobaseline distinct_tids=9
+comm=iou-wrk-13614 distinct_tids=1
+named_iowq_or_io_wq:
+comm=iou-wrk-13614 peak=1 distinct_tids=1
+issuer_tid_correlation:
+submit_enter_distinct_tids=13614 
+wait_enter_distinct_tids=13610 13612 13613 13634 13647 14036 
+distinct_iou_wrk_owner_suffixes=1
+iou_wrk_owner_suffixes:
+owner_suffix=13614 submit_enter_tid=true wait_enter_tid=false

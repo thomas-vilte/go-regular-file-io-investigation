@@ -1,0 +1,1 @@
+sudo -n perf report --stdio --no-children --sort comm,dso,symbol -i ${REPO}/pre-upstream-controls/perf/blocking/perf.data

@@ -1,0 +1,1 @@
+sudo -n perf report --stdio --children -g graph,0.5,caller -i ${REPO}/pre-upstream-controls/perf/normal-uring/perf.data

@@ -1,0 +1,16 @@
+perf version 7.2.6-1
+2
+2
+0
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+$ perf --version
+
+exit_status=0
+$ cat /proc/sys/kernel/perf_event_paranoid /proc/sys/kernel/kptr_restrict /proc/sys/kernel/io_uring_disabled
+
+exit_status=0
+$ grep -E '^(NoNewPrivs|Seccomp|Seccomp_filters):' /proc/self/status
+
+exit_status=0

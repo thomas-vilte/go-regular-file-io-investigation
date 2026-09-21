@@ -1,0 +1,49 @@
+Scoped excerpt: first iobaseline symbol block from report-symbolized.txt.
+Percentages retain the original system-wide denominator; this is not a benchmark-only CPU breakdown.
+Unknown kernel addresses are intentionally NOT assigned names. Unwind artifacts may remain.
+
+54.10%  iobaseline       [unknown]                       [k] 0xffffffff9dfe750a                                                                                                                                                                       -      -
+            |
+            ---0xffffffff9dfe750a
+               0xffffffff9defeb40
+               |
+               |--51.91%--0xffffffff9deff372
+               |          0xffffffff9dee4502
+               |          0xffffffff9f1d4156
+               |          0xffffffff9dc0012f
+               |          internal/runtime/syscall/linux.Syscall6
+               |          syscall.RawSyscall6
+               |          syscall.Syscall6
+               |          syscall.pread
+               |          syscall.Pread (inlined)
+               |          internal/poll.(*FD).Pread.func1 (inlined)
+               |          internal/poll.ignoringEINTR2[go.shape.int] (inlined)
+               |          internal/poll.(*FD).Pread
+               |          os.(*File).pread (inlined)
+               |          os.(*File).ReadAt
+               |          |
+               |           --51.73%--main.(*worker).execute
+               |                     main.(*worker).run
+               |                     main.runChild.gowrap2
+               |                     runtime.goexit.abi0
+               |                     |
+               |                      --5.97%--0x101010101010100
+               |
+                --2.19%--0xffffffff9deff2c2
+                          0xffffffff9dee4502
+                          0xffffffff9f1d4156
+                          0xffffffff9dc0012f
+                          internal/runtime/syscall/linux.Syscall6
+                          syscall.RawSyscall6
+                          syscall.Syscall6
+                          syscall.pread
+                          syscall.Pread (inlined)
+                          internal/poll.(*FD).Pread.func1 (inlined)
+                          internal/poll.ignoringEINTR2[go.shape.int] (inlined)
+                          internal/poll.(*FD).Pread
+                          os.(*File).pread (inlined)
+                          os.(*File).ReadAt
+                          main.(*worker).execute
+                          main.(*worker).run
+                          main.runChild.gowrap2
+                          runtime.goexit.abi0

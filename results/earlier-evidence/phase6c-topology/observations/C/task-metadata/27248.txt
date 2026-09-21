@@ -1,0 +1,14 @@
+root_pid=27103
+workload_pid=27111
+tid=27248
+comm=iobaseline
+status:
+Name:	iobaseline
+Tgid:	27111
+Pid:	27248
+PPid:	27103
+Threads:	13
+voluntary_ctxt_switches:	264
+nonvoluntary_ctxt_switches:	2
+cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_1

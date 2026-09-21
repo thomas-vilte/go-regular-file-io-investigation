@@ -1,0 +1,16 @@
+{
+  "entries": 1024,
+  "error": "operation not permitted",
+  "go_version": "go1.27.1",
+  "goarch": "amd64",
+  "goos": "linux",
+  "harness_revision": "649af01fc8b849ff5edf83d31d22c949e9302516",
+  "io_uring_disabled": "0",
+  "operation": "io_uring_setup_probe",
+  "seccomp_status": {
+    "NoNewPrivs": "1",
+    "Seccomp": "2",
+    "Seccomp_filters": "1"
+  },
+  "status": "unavailable"
+}

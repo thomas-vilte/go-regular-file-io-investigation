@@ -1,0 +1,35 @@
+2026-09-18T19:01:32Z
+root_pid=15244
+workload_pid=15251
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_3
+tasks:
+tid=15251 comm=iobaseline
+tid=15252 comm=iobaseline
+tid=15253 comm=iobaseline
+tid=15254 comm=iobaseline
+tid=15255 comm=iobaseline
+tid=15274 comm=iobaseline
+tid=15275 comm=iobaseline
+tid=15284 comm=iou-wrk-15255
+tid=15285 comm=iou-wrk-15255
+tid=15286 comm=iou-wrk-15255
+tid=15287 comm=iou-wrk-15255
+tid=15288 comm=iou-wrk-15255
+tid=15289 comm=iou-wrk-15255
+tid=15290 comm=iou-wrk-15255
+tid=15291 comm=iou-wrk-15255
+tid=15292 comm=iou-wrk-15255
+tid=15293 comm=iou-wrk-15255
+tid=15294 comm=iou-wrk-15255
+tid=15295 comm=iobaseline
+tid=15296 comm=iobaseline
+tid=15297 comm=iou-wrk-15255
+tid=15298 comm=iou-wrk-15255
+tid=15299 comm=iou-wrk-15255
+tid=15300 comm=iou-wrk-15255
+tid=15301 comm=iou-wrk-15255
+task_count=25
+tasks_by_comm:
+comm=iobaseline count=9
+comm=iou-wrk-15255 count=16

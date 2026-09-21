@@ -1,0 +1,9 @@
+command: scripts/phase6-worker-curve.sh phase6-artifacts ./data/readat-512MiB.bin
+required_revision=f9604c8e7b98d1f6d60cbb4ea7efb4bf9a53dfb7
+harness_revision=f69cccb803640887c782241b943ec5f4b851aeb4
+go version go1.27.1 linux/amd64
+Linux HOST 7.2.3-1-cachyos #1 SMP PREEMPT_DYNAMIC Sun, 06 Sep 2026 22:01:30 +0000 x86_64 GNU/Linux
+[operator uid/gid/group list omitted]
+/home /dev/nvme0n1p3 btrfs rw,noatime,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/
+0::/user.slice/OPERATOR.slice/SCOPE_4
+io_uring_disabled=0

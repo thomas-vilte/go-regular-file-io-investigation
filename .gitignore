@@ -1,0 +1,16 @@
+/iobaseline
+/iouringprobe
+/genfile
+/summarize
+/data/
+/phase4-artifacts/
+/phase5-artifacts/
+/phase6-artifacts/
+/phase6-gate/
+/phase6b-gate/
+/phase6c-artifacts/
+/phase7-artifacts/
+/phase8-artifacts/
+**/__pycache__/
+*.pyc
+/.idea/

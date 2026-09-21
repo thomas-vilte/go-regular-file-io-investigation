@@ -1,0 +1,23 @@
+2026-09-18T15:42:56Z
+root_pid=28316
+workload_pid=28323
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_1
+tasks:
+tid=28323 comm=iobaseline
+tid=28324 comm=iobaseline
+tid=28325 comm=iobaseline
+tid=28326 comm=iobaseline
+tid=28327 comm=iobaseline
+tid=28346 comm=iobaseline
+tid=28347 comm=iobaseline
+tid=28348 comm=iou-wrk-28327
+tid=28349 comm=iobaseline
+tid=28407 comm=iobaseline
+tid=28779 comm=iobaseline
+tid=28780 comm=iobaseline
+tid=28781 comm=iobaseline
+task_count=13
+tasks_by_comm:
+comm=iobaseline count=12
+comm=iou-wrk-28327 count=1

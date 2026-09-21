@@ -1,0 +1,20 @@
+sample_interval_ms=25
+samples=161
+root_pid=28316
+workload_pid=28323
+peak_workload_tasks=13
+vanished_tid_reads=0
+peak_tasks_by_comm:
+comm=iobaseline peak=12
+comm=iou-wrk-28327 peak=1
+distinct_tids_by_comm:
+comm=iobaseline distinct_tids=12
+comm=iou-wrk-28327 distinct_tids=1
+named_iowq_or_io_wq:
+comm=iou-wrk-28327 peak=1 distinct_tids=1
+issuer_tid_correlation:
+submit_enter_distinct_tids=
+wait_enter_distinct_tids=
+distinct_iou_wrk_owner_suffixes=1
+iou_wrk_owner_suffixes:
+owner_suffix=28327 submit_enter_tid=false wait_enter_tid=false

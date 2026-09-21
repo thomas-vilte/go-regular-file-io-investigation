@@ -1,0 +1,15 @@
+required_revision=f895b400d7a8ab200d9dfbb01dbd777fd44bd00e
+harness_revision=f895b400d7a8ab200d9dfbb01dbd777fd44bd00e
+go version go1.27.1 linux/amd64
+Linux HOST 7.2.3-1-cachyos #1 SMP PREEMPT_DYNAMIC Sun, 06 Sep 2026 22:01:30 +0000 x86_64 GNU/Linux
+[operator uid/gid/group list omitted]
+/home /dev/nvme0n1p3 btrfs rw,noatime,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/
+0::/user.slice/OPERATOR.slice/SCOPE_1
+  Fichero: ./data/readat-512MiB.bin
+  Tamaño: 536870912 	Bloques: 1048576    Bloque E/S: 4096   fichero regular
+Device: 0,57	Inode: 6083544     Links: 1
+Acceso: (0644/-rw-r--r--)  Owner: (OPERATOR)   Owner: (OPERATOR)
+      Acceso: 2026-09-17 13:53:12.697715137 -0300
+Modificación: 2026-09-17 13:53:13.577719911 -0300
+      Cambio: 2026-09-17 13:53:13.577719911 -0300
+    Creación: 2026-09-17 13:53:12.697715137 -0300

@@ -1,0 +1,76 @@
+=== RUN   TestBatchBucket
+--- PASS: TestBatchBucket (0.00s)
+=== RUN   TestPartialSubmitAccounting
+--- PASS: TestPartialSubmitAccounting (0.00s)
+=== RUN   TestPublicationBatchOwnershipAndWraparound
+=== RUN   TestPublicationBatchOwnershipAndWraparound/normal
+=== RUN   TestPublicationBatchOwnershipAndWraparound/force_async
+--- PASS: TestPublicationBatchOwnershipAndWraparound (0.00s)
+    --- PASS: TestPublicationBatchOwnershipAndWraparound/normal (0.00s)
+    --- PASS: TestPublicationBatchOwnershipAndWraparound/force_async (0.00s)
+=== RUN   TestSingletonPublicationReconciles
+--- PASS: TestSingletonPublicationReconciles (0.00s)
+=== RUN   TestPublicationValidatesEntireBatchBeforeTail
+--- PASS: TestPublicationValidatesEntireBatchBeforeTail (0.00s)
+=== RUN   TestReadSQEFlags
+--- PASS: TestReadSQEFlags (0.00s)
+=== RUN   TestTIDSetBookkeeping
+--- PASS: TestTIDSetBookkeeping (0.00s)
+=== RUN   TestIssuerTIDRecordingGate
+--- PASS: TestIssuerTIDRecordingGate (0.00s)
+=== RUN   TestRingIssuerRecordingModes
+=== RUN   TestRingIssuerRecordingModes/false
+=== RUN   TestRingIssuerRecordingModes/true
+--- PASS: TestRingIssuerRecordingModes (0.01s)
+    --- PASS: TestRingIssuerRecordingModes/false (0.01s)
+    --- PASS: TestRingIssuerRecordingModes/true (0.01s)
+=== RUN   TestConfigureIOWQWorkersQuerySetAndVerify
+--- PASS: TestConfigureIOWQWorkersQuerySetAndVerify (0.00s)
+=== RUN   TestConfigureIOWQWorkersDefaultQueryDoesNotSet
+--- PASS: TestConfigureIOWQWorkersDefaultQueryDoesNotSet (0.00s)
+=== RUN   TestConfigureIOWQWorkersSetsUnboundedOnly
+--- PASS: TestConfigureIOWQWorkersSetsUnboundedOnly (0.00s)
+=== RUN   TestConfigureIOWQWorkersErrors
+--- PASS: TestConfigureIOWQWorkersErrors (0.00s)
+=== RUN   TestConfigureIOWQWorkersPostSetMismatchFails
+--- PASS: TestConfigureIOWQWorkersPostSetMismatchFails (0.00s)
+=== RUN   TestUnboundedWorkerOptionsRequireForceAsync
+--- PASS: TestUnboundedWorkerOptionsRequireForceAsync (0.00s)
+=== RUN   TestReadAtMatchesFile
+=== RUN   TestReadAtMatchesFile/normal
+=== RUN   TestReadAtMatchesFile/force_async
+--- PASS: TestReadAtMatchesFile (0.01s)
+    --- PASS: TestReadAtMatchesFile/normal (0.01s)
+    --- PASS: TestReadAtMatchesFile/force_async (0.01s)
+=== RUN   TestEOFAndSQPressure
+=== RUN   TestEOFAndSQPressure/normal
+=== RUN   TestEOFAndSQPressure/force_async
+--- PASS: TestEOFAndSQPressure (0.01s)
+    --- PASS: TestEOFAndSQPressure/normal (0.01s)
+    --- PASS: TestEOFAndSQPressure/force_async (0.00s)
+=== RUN   TestConcurrentPublicationReturnsCorrectBytes
+=== RUN   TestConcurrentPublicationReturnsCorrectBytes/normal
+=== RUN   TestConcurrentPublicationReturnsCorrectBytes/force_async
+--- PASS: TestConcurrentPublicationReturnsCorrectBytes (0.01s)
+    --- PASS: TestConcurrentPublicationReturnsCorrectBytes/normal (0.00s)
+    --- PASS: TestConcurrentPublicationReturnsCorrectBytes/force_async (0.00s)
+=== RUN   TestRepeatedCreateDestroy
+=== RUN   TestRepeatedCreateDestroy/normal
+=== RUN   TestRepeatedCreateDestroy/force_async
+--- PASS: TestRepeatedCreateDestroy (0.01s)
+    --- PASS: TestRepeatedCreateDestroy/normal (0.00s)
+    --- PASS: TestRepeatedCreateDestroy/force_async (0.00s)
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC/normal
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC/force_async
+--- PASS: TestSustainedReadAtLifecycleWithForcedGC (0.14s)
+    --- PASS: TestSustainedReadAtLifecycleWithForcedGC/normal (0.06s)
+    --- PASS: TestSustainedReadAtLifecycleWithForcedGC/force_async (0.08s)
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain/normal
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain/force_async
+--- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain (0.01s)
+    --- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain/normal (0.01s)
+    --- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain/force_async (0.01s)
+PASS
+ok  	example.com/go-iouring-investigation/bench/internal/uring	0.211s

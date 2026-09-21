@@ -1,0 +1,44 @@
+sample_interval_ms=25
+samples=132
+root_pid=27103
+workload_pid=27111
+peak_workload_tasks=15
+vanished_tid_reads=0
+peak_tasks_by_comm:
+comm=iobaseline peak=8
+comm=iou-wrk-27111 peak=1
+comm=iou-wrk-27113 peak=1
+comm=iou-wrk-27114 peak=1
+comm=iou-wrk-27115 peak=1
+comm=iou-wrk-27245 peak=1
+comm=iou-wrk-27248 peak=1
+comm=iou-wrk-27367 peak=1
+distinct_tids_by_comm:
+comm=iobaseline distinct_tids=8
+comm=iou-wrk-27111 distinct_tids=1
+comm=iou-wrk-27113 distinct_tids=1
+comm=iou-wrk-27114 distinct_tids=1
+comm=iou-wrk-27115 distinct_tids=1
+comm=iou-wrk-27245 distinct_tids=1
+comm=iou-wrk-27248 distinct_tids=1
+comm=iou-wrk-27367 distinct_tids=1
+named_iowq_or_io_wq:
+comm=iou-wrk-27111 peak=1 distinct_tids=1
+comm=iou-wrk-27113 peak=1 distinct_tids=1
+comm=iou-wrk-27114 peak=1 distinct_tids=1
+comm=iou-wrk-27115 peak=1 distinct_tids=1
+comm=iou-wrk-27245 peak=1 distinct_tids=1
+comm=iou-wrk-27248 peak=1 distinct_tids=1
+comm=iou-wrk-27367 peak=1 distinct_tids=1
+issuer_tid_correlation:
+submit_enter_distinct_tids=
+wait_enter_distinct_tids=
+distinct_iou_wrk_owner_suffixes=7
+iou_wrk_owner_suffixes:
+owner_suffix=27111 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27113 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27114 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27115 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27245 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27248 submit_enter_tid=false wait_enter_tid=false
+owner_suffix=27367 submit_enter_tid=false wait_enter_tid=false

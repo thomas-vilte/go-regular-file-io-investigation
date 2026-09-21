@@ -1,0 +1,5 @@
+Read-only file metadata, checked during publication packaging.
+/usr/lib/modules/7.2.3-1-cachyos/build/vmlinux: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=a816ef0fc034196a61b0ac54dcfc3d06802bb809, not stripped
+
+Command: readelf -n /usr/lib/modules/7.2.3-1-cachyos/build/vmlinux
+Build ID: a816ef0fc034196a61b0ac54dcfc3d06802bb809

@@ -1,0 +1,121 @@
+2026-09-18T17:36:43Z
+repo_root=/mnt/phase8/bench
+required_revision=dfc28d1823dcdb577194cf0b4091ff6cdbd98d57
+harness_revision=b2bccf754f40da86fe7b2b57a229c01ab0b3b3db
+git_status_short:
+?? phase8-artifacts-gate-failure-9e153d/
+go_executable=/opt/go1.27.1/bin/go
+go version go1.27.1 linux/amd64
+Linux HOST 7.0.0-1012-aws #12~24.04.1-Ubuntu SMP PREEMPT Wed Aug 12 14:00:57 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+online_cpus=8
+slow_gomaxprocs=4
+resident_gomaxprocs=8
+PHASE8_GOMAXPROCS=
+PHASE8_SLOW_GOMAXPROCS=
+PHASE8_RESIDENT_GOMAXPROCS=
+
+[lscpu]
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           48 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Xeon(R) 6975P-C
+CPU family:                              6
+Model:                                   173
+Thread(s) per core:                      2
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                1
+BogoMIPS:                                5400.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq monitor ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 wbnoinvd ida arat avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq rdpid bus_lock_detect cldemote movdiri movdir64b md_clear serialize amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               192 KiB (4 instances)
+L1i cache:                               256 KiB (4 instances)
+L2 cache:                                8 MiB (4 instances)
+L3 cache:                                480 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-7
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI BHI_DIS_S
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+[free -h]
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       645Mi        13Gi       2.9Mi       2.0Gi        14Gi
+Swap:             0B          0B          0B
+
+[meminfo]
+MemTotal:       16077052 kB
+MemAvailable:   15415724 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+HugePages_Total:       0
+
+[dataset stat]
+  File: /mnt/phase8/bench/data/readat-512MiB.bin
+  Size: 536870912 	Blocks: 1048584    IO Block: 4096   regular file
+Device: 259,1	Inode: 28311650    Links: 1
+Access: (0644/-rw-r--r--)  Owner: (OPERATOR)   Owner: (OPERATOR)
+Access: 2026-09-18 17:23:45.060637306 +0000
+Modify: 2026-09-18 17:23:44.947636363 +0000
+Change: 2026-09-18 17:23:44.947636363 +0000
+ Birth: 2026-09-18 17:23:44.001628473 +0000
+
+[findmnt dataset]
+TARGET      SOURCE       FSTYPE OPTIONS
+/mnt/phase8 /dev/nvme1n1 ext4   rw,relatime
+
+[df -T dataset]
+Filesystem     Type 1K-blocks   Used Available Use% Mounted on
+/dev/nvme1n1   ext4 454502424 540196 430801316   1% /mnt/phase8
+
+[lsblk]
+NAME         TYPE   SIZE FSTYPE   MOUNTPOINTS                  ROTA MODEL
+loop0        loop  28.4M squashfs /snap/amazon-ssm-agent/13349    0 
+loop1        loop    74M squashfs /snap/core22/2437               0 
+loop2        loop  50.1M squashfs /snap/snapd/27710               0 
+loop3        loop  28.6M squashfs /snap/amazon-ssm-agent/13595    0 
+nvme0n1      disk    30G                                          0 Amazon Elastic Block Store
+├─nvme0n1p1  part    29G ext4     /                               0 
+├─nvme0n1p14 part     4M                                          0 
+├─nvme0n1p15 part   106M vfat     /boot/efi                       0 
+└─nvme0n1p16 part   913M ext4     /boot                           0 
+nvme1n1      disk 441.4G ext4     /mnt/phase8                     0 Amazon EC2 NVMe Instance Storage
+
+[cgroup]
+0::/user.slice/OPERATOR.slice/SCOPE_6
+
+[cgroup v2 mounts]
+TARGET         SOURCE  FSTYPE  OPTIONS
+/sys/fs/cgroup cgroup2 cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot
+
+[io_uring_disabled]
+0
+
+[security]
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+
+[filesystem optional]
+ERROR: not a btrfs filesystem: /mnt/phase8

@@ -1,0 +1,3 @@
+slow-blocking resident-U1 resident-U8 slow-normal resident-normal resident-U2 resident-U16 resident-blocking resident-default resident-U4
+resident-U16 slow-normal resident-U1 resident-default slow-blocking resident-U4 resident-normal resident-U2 resident-U8 resident-blocking
+resident-default resident-U4 slow-blocking resident-U16 resident-U8 slow-normal resident-U1 resident-normal resident-U2 resident-blocking

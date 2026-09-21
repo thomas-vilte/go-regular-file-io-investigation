@@ -1,0 +1,15 @@
+Reviewed selection from the original environment capture; not a new capture.
+Environment B
+Linux 7.2.3-1-cachyos; x86_64; CachyOS
+Intel Core i3-9100F; 4 logical CPUs; approximately 15.55 GiB RAM
+Go 1.27.1 linux/amd64
+Go source revision: 862c888e612ac346c7c4d99c9392bdfd265f33b0
+Starting private HEAD: 605280a3bad0cf070e465135c4bc73b60d245f83
+Implementation/execution: ec82557a9e295fcff895234212e76ad01b8cec19
+Filesystem: btrfs on local NVMe
+Mount options: rw,noatime,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=5,subvol=/
+Dataset: ${REPO}/data/readat-512MiB.bin; 536870912 bytes
+Dataset SHA-256: ac61f5b292b9d59c17b3d0fb45ec6fd75970e021e7bfa324ad5332b5df163583
+NoNewPrivs=0; Seccomp=0; io_uring_disabled=0 (host gate; not the restricted agent sandbox)
+perf 7.2.6-1; perf_event_paranoid=2; kptr_restrict=2
+Operator hostname, home paths, unrelated disks, cgroup session and private artifact inventory omitted.

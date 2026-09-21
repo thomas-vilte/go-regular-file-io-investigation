@@ -1,0 +1,97 @@
+2026-09-18T19:01:40Z
+root_pid=15834
+workload_pid=15841
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_3
+tasks:
+tid=15841 comm=iobaseline
+tid=15842 comm=iobaseline
+tid=15843 comm=iobaseline
+tid=15844 comm=iobaseline
+tid=15862 comm=iobaseline
+tid=15863 comm=iobaseline
+tid=15864 comm=iobaseline
+tid=15875 comm=iou-wrk-15844
+tid=15876 comm=iou-wrk-15844
+tid=15877 comm=iou-wrk-15844
+tid=15878 comm=iou-wrk-15844
+tid=15879 comm=iou-wrk-15844
+tid=15880 comm=iou-wrk-15844
+tid=15881 comm=iou-wrk-15844
+tid=15882 comm=iou-wrk-15844
+tid=15883 comm=iou-wrk-15844
+tid=15884 comm=iou-wrk-15844
+tid=15885 comm=iou-wrk-15844
+tid=15886 comm=iou-wrk-15844
+tid=15887 comm=iou-wrk-15844
+tid=15888 comm=iou-wrk-15844
+tid=15889 comm=iou-wrk-15844
+tid=15890 comm=iou-wrk-15844
+tid=15891 comm=iou-wrk-15844
+tid=15892 comm=iou-wrk-15844
+tid=15893 comm=iou-wrk-15844
+tid=15894 comm=iou-wrk-15844
+tid=15895 comm=iou-wrk-15844
+tid=15896 comm=iou-wrk-15844
+tid=15897 comm=iou-wrk-15844
+tid=15898 comm=iou-wrk-15844
+tid=15899 comm=iou-wrk-15844
+tid=15900 comm=iou-wrk-15844
+tid=15901 comm=iou-wrk-15844
+tid=15902 comm=iou-wrk-15844
+tid=15903 comm=iou-wrk-15844
+tid=15904 comm=iou-wrk-15844
+tid=15905 comm=iou-wrk-15844
+tid=15906 comm=iou-wrk-15844
+tid=15907 comm=iou-wrk-15844
+tid=15908 comm=iou-wrk-15844
+tid=15909 comm=iou-wrk-15844
+tid=15910 comm=iou-wrk-15844
+tid=15911 comm=iou-wrk-15844
+tid=15912 comm=iou-wrk-15844
+tid=15913 comm=iou-wrk-15844
+tid=15914 comm=iou-wrk-15844
+tid=15915 comm=iou-wrk-15844
+tid=15916 comm=iou-wrk-15844
+tid=15917 comm=iou-wrk-15844
+tid=15918 comm=iou-wrk-15844
+tid=15919 comm=iou-wrk-15844
+tid=15920 comm=iou-wrk-15844
+tid=15921 comm=iou-wrk-15844
+tid=15922 comm=iou-wrk-15844
+tid=15923 comm=iou-wrk-15844
+tid=15924 comm=iou-wrk-15844
+tid=15925 comm=iou-wrk-15844
+tid=15926 comm=iou-wrk-15844
+tid=15927 comm=iou-wrk-15844
+tid=15928 comm=iou-wrk-15844
+tid=15929 comm=iou-wrk-15844
+tid=15930 comm=iou-wrk-15844
+tid=15931 comm=iou-wrk-15844
+tid=15932 comm=iou-wrk-15844
+tid=15933 comm=iou-wrk-15844
+tid=15934 comm=iou-wrk-15844
+tid=15935 comm=iou-wrk-15844
+tid=15936 comm=iou-wrk-15844
+tid=15937 comm=iou-wrk-15844
+tid=15938 comm=iou-wrk-15844
+tid=15939 comm=iou-wrk-15844
+tid=15940 comm=iou-wrk-15844
+tid=15941 comm=iou-wrk-15844
+tid=15942 comm=iou-wrk-15844
+tid=15943 comm=iobaseline
+tid=15944 comm=iou-wrk-15844
+tid=15945 comm=iou-wrk-15844
+tid=15946 comm=iou-wrk-15844
+tid=15947 comm=iou-wrk-15844
+tid=15948 comm=iou-wrk-15844
+tid=15949 comm=iou-wrk-15844
+tid=15950 comm=iou-wrk-15844
+tid=15951 comm=iobaseline
+tid=15952 comm=iobaseline
+tid=15953 comm=iou-wrk-15844
+tid=15954 comm=iou-wrk-15844
+task_count=87
+tasks_by_comm:
+comm=iobaseline count=10
+comm=iou-wrk-15844 count=77

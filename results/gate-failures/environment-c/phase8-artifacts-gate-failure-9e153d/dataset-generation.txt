@@ -1,0 +1,1 @@
+wrote 536870912 bytes to /mnt/phase8/bench/data/readat-512MiB.bin (seed=31908)

@@ -1,0 +1,2 @@
+ok  	example.com/go-iouring-investigation/bench/internal/uring	1.745s
+ok  	example.com/go-iouring-investigation/bench/cmd/iobaseline	1.013s

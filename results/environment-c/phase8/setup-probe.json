@@ -1,0 +1,16 @@
+{
+  "close_error": "",
+  "entries": 1024,
+  "go_version": "go1.27.1",
+  "goarch": "amd64",
+  "goos": "linux",
+  "harness_revision": "3130f513681116d00d61aa4dc68e7a1bf560970b",
+  "io_uring_disabled": "0",
+  "operation": "io_uring_setup_probe",
+  "seccomp_status": {
+    "NoNewPrivs": "0",
+    "Seccomp": "0",
+    "Seccomp_filters": "0"
+  },
+  "status": "available"
+}

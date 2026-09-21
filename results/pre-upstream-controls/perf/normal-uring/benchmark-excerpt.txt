@@ -1,0 +1,43 @@
+Scoped excerpt: first iobaseline symbol block from report-symbolized.txt.
+Percentages retain the original system-wide denominator; this is not a benchmark-only CPU breakdown.
+Unknown kernel addresses are intentionally NOT assigned names. Unwind artifacts may remain.
+
+40.95%  iobaseline       [unknown]                       [k] 0xffffffff9dfe750a                                                                                                                                                                                                                                                                                       -      -
+            |
+            ---0xffffffff9dfe750a
+               0xffffffff9defeb40
+               |
+               |--39.41%--0xffffffff9deff372
+               |          |
+               |           --38.95%--0xffffffff9e9278db
+               |                     0xffffffff9e92768c
+               |                     0xffffffff9e04de5c
+               |                     0xffffffff9e04e366
+               |                     0xffffffff9e04eacf
+               |                     0xffffffff9f1d4156
+               |                     0xffffffff9dc0012f
+               |                     internal/runtime/syscall/linux.Syscall6
+               |                     syscall.RawSyscall6
+               |                     syscall.Syscall6
+               |                     example.com/go-iouring-investigation/bench/internal/uring.(*Ring).enterSubmit
+               |                     example.com/go-iouring-investigation/bench/internal/uring.(*Ring).submitBatch
+               |                     example.com/go-iouring-investigation/bench/internal/uring.(*Ring).submitLoop
+               |                     example.com/go-iouring-investigation/bench/internal/uring.NewWithOptions.gowrap1
+               |                     runtime.goexit.abi0
+               |
+                --1.54%--0xffffffff9deff2c2
+                          0xffffffff9e9278db
+                          0xffffffff9e92768c
+                          0xffffffff9e04de5c
+                          0xffffffff9e04e366
+                          0xffffffff9e04eacf
+                          0xffffffff9f1d4156
+                          0xffffffff9dc0012f
+                          internal/runtime/syscall/linux.Syscall6
+                          syscall.RawSyscall6
+                          syscall.Syscall6
+                          example.com/go-iouring-investigation/bench/internal/uring.(*Ring).enterSubmit
+                          example.com/go-iouring-investigation/bench/internal/uring.(*Ring).submitBatch
+                          example.com/go-iouring-investigation/bench/internal/uring.(*Ring).submitLoop
+                          example.com/go-iouring-investigation/bench/internal/uring.NewWithOptions.gowrap1
+                          runtime.goexit.abi0

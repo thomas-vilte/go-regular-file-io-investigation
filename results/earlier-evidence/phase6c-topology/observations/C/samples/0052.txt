@@ -1,0 +1,31 @@
+2026-09-18T15:42:31Z
+root_pid=27103
+workload_pid=27111
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_1
+tasks:
+tid=27111 comm=iobaseline
+tid=27112 comm=iobaseline
+tid=27113 comm=iobaseline
+tid=27114 comm=iobaseline
+tid=27115 comm=iobaseline
+tid=27244 comm=iou-wrk-27115
+tid=27245 comm=iobaseline
+tid=27246 comm=iou-wrk-27245
+tid=27247 comm=iou-wrk-27114
+tid=27248 comm=iobaseline
+tid=27249 comm=iou-wrk-27248
+tid=27252 comm=iou-wrk-27113
+tid=27262 comm=iou-wrk-27111
+tid=27367 comm=iobaseline
+tid=27370 comm=iou-wrk-27367
+task_count=15
+tasks_by_comm:
+comm=iou-wrk-27367 count=1
+comm=iobaseline count=8
+comm=iou-wrk-27248 count=1
+comm=iou-wrk-27245 count=1
+comm=iou-wrk-27111 count=1
+comm=iou-wrk-27113 count=1
+comm=iou-wrk-27115 count=1
+comm=iou-wrk-27114 count=1

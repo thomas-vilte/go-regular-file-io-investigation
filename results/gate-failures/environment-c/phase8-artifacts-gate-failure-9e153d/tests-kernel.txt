@@ -1,0 +1,68 @@
+=== RUN   TestBatchBucket
+--- PASS: TestBatchBucket (0.00s)
+=== RUN   TestPartialSubmitAccounting
+--- PASS: TestPartialSubmitAccounting (0.00s)
+=== RUN   TestReadSQEFlags
+--- PASS: TestReadSQEFlags (0.00s)
+=== RUN   TestTIDSetBookkeeping
+--- PASS: TestTIDSetBookkeeping (0.00s)
+=== RUN   TestIssuerTIDRecordingGate
+--- PASS: TestIssuerTIDRecordingGate (0.00s)
+=== RUN   TestRingIssuerRecordingModes
+=== RUN   TestRingIssuerRecordingModes/false
+=== RUN   TestRingIssuerRecordingModes/true
+--- PASS: TestRingIssuerRecordingModes (0.01s)
+    --- PASS: TestRingIssuerRecordingModes/false (0.01s)
+    --- PASS: TestRingIssuerRecordingModes/true (0.01s)
+=== RUN   TestConfigureIOWQWorkersQuerySetAndVerify
+--- PASS: TestConfigureIOWQWorkersQuerySetAndVerify (0.00s)
+=== RUN   TestConfigureIOWQWorkersDefaultQueryDoesNotSet
+--- PASS: TestConfigureIOWQWorkersDefaultQueryDoesNotSet (0.00s)
+=== RUN   TestConfigureIOWQWorkersSetsUnboundedOnly
+--- PASS: TestConfigureIOWQWorkersSetsUnboundedOnly (0.00s)
+=== RUN   TestConfigureIOWQWorkersErrors
+--- PASS: TestConfigureIOWQWorkersErrors (0.00s)
+=== RUN   TestConfigureIOWQWorkersPostSetMismatchFails
+--- PASS: TestConfigureIOWQWorkersPostSetMismatchFails (0.00s)
+=== RUN   TestUnboundedWorkerOptionsRequireForceAsync
+--- PASS: TestUnboundedWorkerOptionsRequireForceAsync (0.00s)
+=== RUN   TestReadAtMatchesFile
+=== RUN   TestReadAtMatchesFile/normal
+=== RUN   TestReadAtMatchesFile/force_async
+--- PASS: TestReadAtMatchesFile (0.01s)
+    --- PASS: TestReadAtMatchesFile/normal (0.01s)
+    --- PASS: TestReadAtMatchesFile/force_async (0.01s)
+=== RUN   TestEOFAndSQPressure
+=== RUN   TestEOFAndSQPressure/normal
+=== RUN   TestEOFAndSQPressure/force_async
+--- PASS: TestEOFAndSQPressure (0.01s)
+    --- PASS: TestEOFAndSQPressure/normal (0.01s)
+    --- PASS: TestEOFAndSQPressure/force_async (0.01s)
+=== RUN   TestBatchedPublicationReturnsCorrectBytes
+=== RUN   TestBatchedPublicationReturnsCorrectBytes/normal
+    uring_linux_amd64_test.go:487: work did not form a batch: {OperationsCreated:32 OperationsAdmitted:32 OperationsQueued:32 OperationsPublished:32 OperationsCleanedBeforePublication:0 PinsCreated:32 PinsReleased:32 Submissions:32 Completions:32 SQFullWaits:0 EnterCalls:32 EnterSubmitted:32 SubmitEnterCalls:32 WaitEnterCalls:0 SubmitEntriesRequested:32 SubmitEntriesConsumed:32 SubmitBatches:32 SubmitBatchEntriesTotal:32 SubmitBatchSizeMax:1 CompletionDrainBatches:32 CompletionCQEsDrainedTotal:32 CompletionBatchSizeMax:1 PartialSubmitReturns:0 ZeroSubmitReturns:0 SubmitBatchSizeBuckets:[32 0 0 0 0 0 0 0 0 0 0] CompletionBatchSizeBuckets:[32 0 0 0 0 0 0 0 0 0 0] MaxSQOccupancy:1 MaxOperationTable:1 OperationTable:0 PinnedOperations:0 UnknownIDs:0 DuplicateCQEs:0}
+=== RUN   TestBatchedPublicationReturnsCorrectBytes/force_async
+--- FAIL: TestBatchedPublicationReturnsCorrectBytes (0.01s)
+    --- FAIL: TestBatchedPublicationReturnsCorrectBytes/normal (0.01s)
+    --- PASS: TestBatchedPublicationReturnsCorrectBytes/force_async (0.00s)
+=== RUN   TestRepeatedCreateDestroy
+=== RUN   TestRepeatedCreateDestroy/normal
+=== RUN   TestRepeatedCreateDestroy/force_async
+--- PASS: TestRepeatedCreateDestroy (0.01s)
+    --- PASS: TestRepeatedCreateDestroy/normal (0.00s)
+    --- PASS: TestRepeatedCreateDestroy/force_async (0.00s)
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC/normal
+=== RUN   TestSustainedReadAtLifecycleWithForcedGC/force_async
+--- PASS: TestSustainedReadAtLifecycleWithForcedGC (0.14s)
+    --- PASS: TestSustainedReadAtLifecycleWithForcedGC/normal (0.06s)
+    --- PASS: TestSustainedReadAtLifecycleWithForcedGC/force_async (0.08s)
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain/normal
+=== RUN   TestCloseRejectsActiveOperationsThenAllowsDrain/force_async
+--- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain (0.01s)
+    --- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain/normal (0.01s)
+    --- PASS: TestCloseRejectsActiveOperationsThenAllowsDrain/force_async (0.01s)
+FAIL
+FAIL	example.com/go-iouring-investigation/bench/internal/uring	0.214s
+FAIL

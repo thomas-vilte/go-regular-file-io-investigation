@@ -1,0 +1,14 @@
+2026-09-18T15:42:29Z
+root_pid=27103
+workload_pid=27111
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_1
+tasks:
+tid=27111 comm=iobaseline
+tid=27112 comm=iobaseline
+tid=27113 comm=iobaseline
+tid=27114 comm=iobaseline
+tid=27115 comm=iobaseline
+task_count=5
+tasks_by_comm:
+comm=iobaseline count=5

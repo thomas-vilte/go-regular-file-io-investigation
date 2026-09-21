@@ -1,0 +1,23 @@
+{
+  "derivative": true,
+  "root_pid": 28316,
+  "workload_pid": 28323,
+  "samples": 161,
+  "sample_interval_ms": 25,
+  "gomaxprocs": 4,
+  "execution_revision": "0fdc1b2eb7fd728363cc05e81737a3c0658518fa",
+  "submit_enter_tids": [
+    28327
+  ],
+  "worker_owner_suffixes": [
+    28327
+  ],
+  "observed_distinct_worker_tids": [
+    28348
+  ],
+  "owner_set_equals_submit_set": true,
+  "quantitative_sampling_adequate": true,
+  "warning": "Separate identity diagnostic, not a throughput repetition.",
+  "historical_wait_tid_field_invalid": true,
+  "method": "Recomputed from complete selected experiment-Tgid task metadata and result.json. Original summary is retained even if its correlation parser failed."
+}

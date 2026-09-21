@@ -1,0 +1,4 @@
+path=/mnt/phase8/bench/data/readat-512MiB.bin
+created_by_runner=false
+size_bytes=536870912
+sha256=ac61f5b292b9d59c17b3d0fb45ec6fd75970e021e7bfa324ad5332b5df163583

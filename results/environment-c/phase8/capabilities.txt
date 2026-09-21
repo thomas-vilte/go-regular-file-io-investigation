@@ -1,0 +1,17 @@
+go_executable=/opt/go1.27.1/bin/go
+go version go1.27.1 linux/amd64
+
+[race detector prerequisites]
+ambient_CGO_ENABLED=<unset>
+go_env_CGO_ENABLED=1
+go_env_CC=gcc
+resolved_CC=/usr/bin/gcc
+
+[perf]
+perf version 7.0.14
+
+[perf_event_paranoid]
+4
+
+[kptr_restrict]
+1

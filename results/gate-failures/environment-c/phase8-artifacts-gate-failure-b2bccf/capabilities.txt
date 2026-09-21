@@ -1,0 +1,11 @@
+go_executable=/opt/go1.27.1/bin/go
+go version go1.27.1 linux/amd64
+
+[perf]
+perf version 7.0.14
+
+[perf_event_paranoid]
+4
+
+[kptr_restrict]
+1

@@ -1,0 +1,14 @@
+root_pid=13603
+workload_pid=13610
+tid=13643
+comm=iou-wrk-13614
+status:
+Name:	iou-wrk-13614
+Tgid:	13610
+Pid:	13643
+PPid:	13603
+Threads:	9
+voluntary_ctxt_switches:	0
+nonvoluntary_ctxt_switches:	1
+cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_3

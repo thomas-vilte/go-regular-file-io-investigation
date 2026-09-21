@@ -1,0 +1,20 @@
+sample_interval_ms=25
+samples=172
+root_pid=14448
+workload_pid=14455
+peak_workload_tasks=13
+vanished_tid_reads=0
+peak_tasks_by_comm:
+comm=iobaseline peak=9
+comm=iou-wrk-14457 peak=4
+distinct_tids_by_comm:
+comm=iobaseline distinct_tids=9
+comm=iou-wrk-14457 distinct_tids=4
+named_iowq_or_io_wq:
+comm=iou-wrk-14457 peak=4 distinct_tids=4
+issuer_tid_correlation:
+submit_enter_distinct_tids=14457 
+wait_enter_distinct_tids=14455 14458 14459 14479 14492 14522 
+distinct_iou_wrk_owner_suffixes=1
+iou_wrk_owner_suffixes:
+owner_suffix=14457 submit_enter_tid=true wait_enter_tid=false

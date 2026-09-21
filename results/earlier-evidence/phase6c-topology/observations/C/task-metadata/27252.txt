@@ -1,0 +1,14 @@
+root_pid=27103
+workload_pid=27111
+tid=27252
+comm=iou-wrk-27113
+status:
+Name:	iou-wrk-27113
+Tgid:	27111
+Pid:	27252
+PPid:	27103
+Threads:	13
+voluntary_ctxt_switches:	3
+nonvoluntary_ctxt_switches:	57
+cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_1

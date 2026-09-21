@@ -1,0 +1,20 @@
+2026-09-18T19:01:13Z
+root_pid=13603
+workload_pid=13610
+workload_cgroup:
+0::/user.slice/OPERATOR.slice/SCOPE_3
+tasks:
+tid=13610 comm=iobaseline
+tid=13611 comm=iobaseline
+tid=13612 comm=iobaseline
+tid=13613 comm=iobaseline
+tid=13614 comm=iobaseline
+tid=13633 comm=iobaseline
+tid=13634 comm=iobaseline
+tid=13643 comm=iou-wrk-13614
+tid=13647 comm=iobaseline
+tid=14036 comm=iobaseline
+task_count=10
+tasks_by_comm:
+comm=iobaseline count=9
+comm=iou-wrk-13614 count=1
